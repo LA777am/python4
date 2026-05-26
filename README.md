@@ -5,17 +5,13 @@
 
 ### 📡 METADATA & CONTROL PANEL
 * **Current Node**: `/Users/ayushmali/Documents/LA777/README_PLAYGROUND.md`
-* **Visual Target**: Tactical HUD, Cyber-Genomics, Deep Space Telemetry, and Premium AI Dashboard Aesthetics.
+* **Visual Target**: Live Rendering of Tactical HUD, Cyber-Genomics, Deep Space Telemetry, and Premium AI Dashboard Aesthetics.
 * **Compatibility Target**: 100% native GitHub Markdown Rendering (Camo proxy safe, no stripped script tags, responsive HTML-table grid structures).
 
 ---
 
 ## 📖 How to Use This Playground
-This file is a **Design Lab & Component Gallery** containing modular profile blocks. Look at the code, preview the layouts, and **mix and match** modules to build your ultimate profile. Each section includes a standard metadata block indicating:
-1. **GitHub Compatibility**: Native, Proxy-only, or Semi-Dynamic.
-2. **Animation Mechanism**: Simulated (HTML/typing-svg) or Real (pure CSS keyframes inside embedded SVG).
-3. **Aesthetic Classification**: Cyberpunk, Aerospace HUD, Premium Minimal, etc.
-4. **Maintenance Score**: Low (static), Medium (external APIs), High (requires workflow updates).
+This file is configured so that **ALL components render LIVE instantly**. You can copy this entire page directly to your repository's `README.md` to see how everything looks live, then delete or keep the ones you want.
 
 ---
 
@@ -29,7 +25,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **GitHub Compatibility**: 100% Native. Uses `capsule-render` for dynamic header geometry and nested HTML columns for stats overlays.
 * **Aesthetic Note**: *Highly visual, high impact, great for dark mode.*
 
-```html
 <!-- START: Cyber-Genomics Hero -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=retro&color=0d021a&height=220&section=header&text=AI%20%E2%80%A2%20GENOMICS%20%E2%80%A2%20AERO&fontSize=42&fontColor=00ffcc&stroke=ff007f&strokeWidth=1.5&animation=twinkle" width="100%" alt="Cyber Genomics Banner" />
@@ -49,7 +44,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
   </tr>
 </table>
 <!-- END: Cyber-Genomics Hero -->
-```
 
 ---
 
@@ -59,7 +53,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **Limitations**: Rendered inline on GitHub markdown; responsive width adapts automatically.
 * **Aesthetic Note**: *Most futuristic, premium engineering vibe. Wow factor is extremely high.*
 
-```xml
 <!-- START: Aerospace Orbital HUD -->
 <p align="center">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="280" style="background: #020617; font-family: monospace; overflow: hidden; border-radius: 8px; border: 1px solid #1e293b;">
@@ -144,7 +137,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
   </svg>
 </p>
 <!-- END: Aerospace Orbital HUD -->
-```
 
 ---
 
@@ -152,7 +144,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **What it does**: Creates a visual DevOps style cluster telemetry dashboard with live system loads.
 * **Aesthetic Note**: *Best for AI & ML engineers showing raw computation and technical command.*
 
-```html
 <!-- START: AI Supercomputing Dashboard -->
 <div align="center">
   <table width="100%" style="border-collapse: collapse; border: 1px solid #1e293b; background-color: #030712; border-radius: 6px; overflow: hidden;">
@@ -183,7 +174,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
   </table>
 </div>
 <!-- END: AI Supercomputing Dashboard -->
-```
 
 ---
 
@@ -191,13 +181,11 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **What it does**: An ultra-clean aesthetic using a high-end subtle color transition.
 * **Aesthetic Note**: *Best for recruiters and executive portfolios. Displays high professionalism and elegance.*
 
-```html
 <!-- START: Minimal Premium Satin -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=090d16&height=180&section=header&text=AYUSH%20MALI&fontSize=48&fontColor=ffffff&desc=AI%20Research%20%E2%80%A2%20Aerospace%20Architect%20%E2%80%A2%20Full-Stack%20Engineer&descSize=16&descAlignY=65&descAlign=50" width="100%" alt="Minimal Premium Banner"/>
 </p>
 <!-- END: Minimal Premium Satin -->
-```
 
 ---
 
@@ -210,13 +198,11 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **Mechanism**: Simulated typewriter action using Readme Typing SVG.
 * **Impact**: *Dynamic, loops infinitely, keeps recruiters reading.*
 
-```html
 <p align="center">
   <a href="#about">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Initializing+AI+Core...;Genomic+Alignment+System+Active;Tracking+Deep+Space+Telemetries;Premium+Full+Stack+UI+Architect" alt="Typing SVG" />
   </a>
 </p>
-```
 
 ---
 
@@ -224,7 +210,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **Mechanism**: Raw SVG code. Animates vector paths of the text for a breathing stroke glow.
 * **GitHub Compatibility**: Native. Works natively in dark mode.
 
-```xml
 <p align="center">
   <svg xmlns="http://www.w3.org/2000/svg" width="600" height="70" viewBox="0 0 600 70">
     <style>
@@ -244,7 +229,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
     <text x="300" y="45" class="glowing-text">LAUNCH_SEQUENCE_READY</text>
   </svg>
 </p>
-```
 
 ---
 
@@ -257,7 +241,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **Concept**: Formats your biography like an official IEEE or Nature Biotechnology academic publication abstract. 
 * **Aesthetic Note**: *Extremely professional for ML research & genomic science portfolios.*
 
-```markdown
 <!-- START: Academic Abstract Paper Layout -->
 <table align="center" style="border-collapse: collapse; border: 1px solid #334155; font-family: sans-serif; max-width: 780px;">
   <tr>
@@ -280,7 +263,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
   </tr>
 </table>
 <!-- END: Academic Abstract Paper -->
-```
 
 ---
 
@@ -293,7 +275,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **Concept**: A high-density grid categorized by aerospace sub-systems, AI layers, and Full-Stack technology nodes.
 * **Aesthetic Note**: *Extremely clean, modern design with specific tailored badges.*
 
-```html
 <!-- START: Tech HUD Stack -->
 <table width="100%" style="border-collapse: collapse; border: none; background: transparent;">
   <tr style="border: none; background: transparent;">
@@ -318,7 +299,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
   </tr>
 </table>
 <!-- END: Tech HUD Stack -->
-```
 
 ---
 
@@ -326,13 +306,11 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 * **Concept**: Uses ASCII and HTML styling to show competence thresholds for highly technical fields.
 * **Aesthetic Note**: *Appeals to developers who value transparency, visual density, and terminal outputs.*
 
-```markdown
 ### 🖥️ NEURAL INTERFACE CAPACITY
 * **AERODYNAMICS ENGINE DESIGN** `[ 90% ]` : `███████████████░░`
 * **GENOMIC RE-ALIGNMENT ML** `[ 95% ]` : `████████████████░`
 * **ADVANCED GRAPH CORE PIPELINE** `[ 85% ]` : `██████████████░░░`
 * **TACTICAL HUD SYSTEMS (HTML/SVG)** `[ 98% ]` : `█████████████████`
-```
 
 ---
 
@@ -344,7 +322,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
 ### 📈 Combined Telemetry Console
 * **Concept**: Displays a side-by-side grid of your GitHub statistics and repository achievements in dark-mode themes.
 
-```html
 <!-- START: Telemetry Console -->
 <table align="center" width="100%" style="border-collapse: collapse; border: none; background: transparent;">
   <tr style="border: none; background: transparent;">
@@ -357,7 +334,6 @@ This file is a **Design Lab & Component Gallery** containing modular profile blo
   </tr>
 </table>
 <!-- END: Telemetry Console -->
-```
 
 ---
 
@@ -401,7 +377,6 @@ jobs:
 ### 🌊 Waveform 1: The Plasma Ribbon Divider
 * **Mechanism**: 100% Real CSS animations running on smooth cubic-bezier translations. Works automatically on light/dark mode.
 
-```xml
 <!-- START: Plasma Waveform Divider -->
 <p align="center">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40" width="100%" height="40" style="background: transparent; overflow: hidden;">
@@ -431,14 +406,12 @@ jobs:
   </svg>
 </p>
 <!-- END: Plasma Waveform Divider -->
-```
 
 ---
 
 ### 🧬 Waveform 2: Genomic DNA Double-Helix Separator
 * **Mechanism**: Pure CSS coordinate oscillations. The base nodes breathe in opposite phase.
 
-```xml
 <!-- START: DNA Helix Divider -->
 <p align="center">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 30" width="100%" height="30" style="background: transparent; overflow: hidden;">
@@ -465,7 +438,6 @@ jobs:
   </svg>
 </p>
 <!-- END: DNA Helix Divider -->
-```
 
 ---
 
@@ -473,11 +445,9 @@ jobs:
 * **Concept**: Flat minimal tactical line with crosshair tick marks.
 * **Aesthetic Note**: *Best for aerospace tracking layouts.*
 
-```html
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0284c7&height=2&width=100%&section=header" width="100%" alt="Line"/>
 </p>
-```
 
 ---
 
@@ -489,9 +459,6 @@ jobs:
 ### 🚀 Chronology A: Aerospace Mission Log
 * **Concept**: Formats career milestones as tactical launch sequences (`T-` minus to liftoff and `T+` orbital entry).
 
-```markdown
-<!-- START: Mission Log Timeline -->
-### 🛰️ MISSION OPERATION LOG
 ```
 [ T-04 YEARS ] PRE-LAUNCH INITIALIZATION
   |-- Joined Advanced AI Supercluster as Research Lead
@@ -508,8 +475,6 @@ jobs:
 [ ACTIVE PHASE ] STATION-KEEPING & DSN TRACKING
   |-- Optimizing real-time genomics AI tools and orbital parameters
 ```
-<!-- END: Mission Log Timeline -->
-```
 
 ---
 
@@ -521,7 +486,6 @@ jobs:
 ### 💎 Modular Glassmorphism Cards (Multi-Column Grid Layout)
 * **Concept**: Responsive layout designed to simulate three-dimensional premium modular hardware units.
 
-```html
 <!-- START: Project Grid -->
 <table width="100%" style="border-collapse: collapse; border: none; background: transparent;">
   <tr style="border: none; background: transparent;">
@@ -548,7 +512,6 @@ jobs:
   </tr>
 </table>
 <!-- END: Project Grid -->
-```
 
 ---
 
@@ -560,15 +523,10 @@ jobs:
 ### 🛡️ System Status & Hardware Telemetry
 * **Concept**: Real-time diagnostic console indicating computational capacity.
 
-```markdown
-<!-- START: Telemetry HUD -->
-### 📟 BIO-ASTRONAUTICS COMPUTATION TERMINAL
 ```diff
 + [ONLINE] System A: Guidance Core Module (APOGEE target locked)
 + [ONLINE] System B: Genomic Base Pair Matcher (hg38 library loaded)
 ! [WARNING] System C: Model Weights Overheating (VRAM consumption at 94.2%)
-```
-<!-- END: Telemetry HUD -->
 ```
 
 ---
@@ -582,7 +540,6 @@ jobs:
 * **Concept**: Standard HTML details block styled to resemble an active terminal prompt. 
 * **Aesthetic Note**: *Extremely interactive. Users click to "run" processes.*
 
-```html
 <!-- START: Interactive Terminal -->
 <details style="border: 1px solid #1e293b; border-radius: 6px; padding: 10px; background-color: #020617; font-family: monospace;">
   <summary style="color: #38bdf8; cursor: pointer; font-size: 13px; font-weight: bold; list-style: none;">
@@ -603,7 +560,6 @@ Current Research Focus: Deep Learning Sequence Align
   </pre>
 </details>
 <!-- END: Interactive Terminal -->
-```
 
 ---
 
@@ -615,16 +571,12 @@ Current Research Focus: Deep Learning Sequence Align
 ### 📡 Cosmic Deep Space Network Tracker
 * **Concept**: Visually plots tracking station links mapping astrodynamics operations.
 
-```markdown
-<!-- START: DSN Telemetry -->
 ```
       [GOLDSTONE STATION] 📡 ------------ ( ~ 384,400 KM ) ------------ 🛰️ [LUNAR SATELLITE]
              |
              |-- Transmitting: Orbital Path Data [0xFE9A2]
              |-- Signal Latency: 1.28 Seconds
              +-- Signal Level: 84.2 dBm
-```
-<!-- END: DSN Telemetry -->
 ```
 
 ---
@@ -637,7 +589,6 @@ Current Research Focus: Deep Learning Sequence Align
 ### 📓 The Executive Academic Folio
 * **Aesthetic Note**: *Best for direct recruiter reading. Strips away neon for raw, clear academic impact.*
 
-```markdown
 ---
 ### 🔬 PRINCIPAL INVESTIGATIONS & WORK
 * **Lead AI Architect** — *Space Dynamics & Bioinformatics Group (2024 - Present)*
@@ -645,7 +596,6 @@ Current Research Focus: Deep Learning Sequence Align
 * **Deep Space Flight Systems lead** — *Astrodynamics Research Corp (2022 - 2024)*
   Created real-time telemetry filters running locally on micro-controller navigation CPUs.
 ---
-```
 
 ---
 
@@ -655,7 +605,6 @@ Current Research Focus: Deep Learning Sequence Align
 ---
 
 ### 🛑 Terminal Command Shutdown Sequence
-```html
 <!-- START: Footer Shutdown -->
 <table align="center" width="100%" style="border-collapse: collapse; border: none; background: transparent;">
   <tr style="border: none; background: transparent;">
@@ -668,7 +617,6 @@ Current Research Focus: Deep Learning Sequence Align
   </tr>
 </table>
 <!-- END: Footer Shutdown -->
-```
 
 ---
 
@@ -680,7 +628,6 @@ Current Research Focus: Deep Learning Sequence Align
 ### 🔳 Markdown Hover-Illusion Grid Cards
 * **Concept**: Leverages contrasting grid structures to mimic active card selections in high-contrast layouts.
 
-```html
 <!-- START: Hover Illusion -->
 <div align="center">
   <table style="border-collapse: collapse; border: none; background: transparent;">
@@ -697,7 +644,6 @@ Current Research Focus: Deep Learning Sequence Align
   </table>
 </div>
 <!-- END: Hover Illusion -->
-```
 
 ---
 
